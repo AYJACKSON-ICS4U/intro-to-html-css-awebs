@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+
+        <!-- Style the website with CSS -->
+        <style>
+            /* Change the whole website to cursive */
+            body{
+                font-family: cursive;
+            }
+            /* Style the paragraphs for my posts
+              to a new size and body and colour them */
+            .post-paragraph{
+                font-size: 18px;
+                font-weight: bold;
+                color: rgb(30, 0, 255);
+            }
+
+            /* Color and center all the section headers*/
+
+
+            h1{
+                text-align: center;
+                color: rgb(255, 0, 30);
+            }
+            h2{
+                text-align: center;
+                color: rgb(255, 140, 0);
+                background-color: rgb(33, 255, 103);
+            }
+            h3{
+                text-align: center;
+                color: rgb(255, 140, 0);
+                background-color: rgb(33, 255, 103);
+            }
+
+            /* Make the date stand out a bit because it is so small */
+
+            h5{
+                text-decoration: underline;
+                font-style: italic;
+                text-align: center;
+                color: rgb(255, 0, 0);
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Alex's HTML blog</h1>
+
+        <!-- Display the table of contents with links to each post -->
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="#html-basics">HTML Basics</a></li>
+            <li><a href="#interesting">It's Getting Interesting</a></li>
+        </ul>
+
+        <!-- The first blog post -->
+        <h2 id="html-basics">HTML Basics</h2>
+        <!-- Date -->
+        <h5>September 15, 2017</h5>
+
+        <!-- Paragraph for post -->
+        <p class="post-paragraph">Today I learned the basics of HTML. I learned all about the tags and features of the language. I wrote a poem, that was terrible, and learned how to add images and lists. I have always heard about HTML and it is interesting to finally understand, on a basic level, what everyone has been talking about.</p>
+
+
+        <!-- The Second blog post -->
+        <h2 id="interesting">It's Getting Interesting</h2>
+        <!-- Date -->
+        <h5>September 18, 2017</h5>
+
+        <!-- Paragraph for the post -->
+        <p class="post-paragraph">Today I learned the CSS basics of styling a webpage and started creating a travel webpage. It is incedible to be making nice, webpages, filled with colour and features. I made a colourful webpage about Madagascar, and I even learned a little about the place while making the webpage. I think the webpage turned out very good and I am proud of it.</p>
+    </body>
+</html>
